@@ -67,29 +67,30 @@ IPv4归属地查询分为 **高精版**、**区县级**、**城市级**，共3�
 
 ```
 {
-    “code”: “Success”,
-    “data”: {
-        “continent”: “亚洲”,
-        “country”: “中国”,
-        “owner”: “imported inetnum object for IIINT”,
-        “isp”: “China Education and Research Network Center,Tsinghua University,Beijing 100084”,
-        “zipcode”: “100038”,
-        “timezone”: “UTC+8”,
-        “accuracy”: “城市”,
-        “source”: “数据挖掘”,
-        “areacode”: “CN”,
-        “adcode”: “110100”,
-        “asnumber”: “4538”,
-        “lat”: “40.009424”,
-        “lng”: “116.332556”,
-        “radius”: “105.2321”,
-        “prov”: “北京市”,
-        “city”: “北京市”
+    "code": "Success",
+    "data": {
+        "continent": "亚洲",
+        "country": "中国",
+        "zipcode": "100005",
+        "timezone": "UTC+8",
+        "accuracy": "区县",
+        "owner": "北京维瑞智盛软件开发有限公司",
+        "isp": "北京海讯达通信有限公司",
+        "source": "数据挖掘",
+        "areacode": "CN",
+        "adcode": "110101",
+        "asnumber": "45083",
+        "lat": "39.930941",
+        "lng": "116.409243",
+        "radius": "6.9215",
+        "prov": "北京市",
+        "city": "北京市",
+        "district": "东城区"
     },
-    “charge”: true,
-    “msg”: “查询成功”,
-    “ip”: “166.111.4.100”,
-    “coordsys”: “WGS84”
+    "charge": true,
+    "msg": "查询成功",
+    "ip": "1.45.124.145",
+    "coordsys": "WGS84"
 }
 ```
 
