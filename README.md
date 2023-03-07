@@ -99,3 +99,22 @@ IP归属地是利用大数据挖掘和大规模网络探测技术，对IP地址�
 
 ![image](https://user-images.githubusercontent.com/36323798/223399783-82ad92be-7dfe-4ea6-837d-f73155a4caa7.png)
 
+
+### Python(Requests) 调用代码示例
+
+```
+import requests
+
+url = "https://eolink.o.apispace.com/ipguishu/ip/geo/v1/district"
+
+payload = {"ip" : "1.45.124.145","coordsys" : "WGS84"}
+
+headers = {
+    "X-APISpace-Token":"",
+    "Authorization-Type":"apikey"
+}
+
+response=requests.request("GET", url, params=payload, headers=headers)
+
+print(response.text)
+```
